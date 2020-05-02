@@ -1,0 +1,11 @@
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\bin\Debug\netcoreapp3.1\PracticeArmyNew.exe
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\bin\Debug\netcoreapp3.1\PracticeArmyNew.deps.json
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\bin\Debug\netcoreapp3.1\PracticeArmyNew.runtimeconfig.json
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\bin\Debug\netcoreapp3.1\PracticeArmyNew.runtimeconfig.dev.json
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\bin\Debug\netcoreapp3.1\PracticeArmyNew.dll
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\bin\Debug\netcoreapp3.1\PracticeArmyNew.pdb
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\obj\Debug\netcoreapp3.1\PracticeArmyNew.csprojAssemblyReference.cache
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\obj\Debug\netcoreapp3.1\PracticeArmyNew.AssemblyInfoInputs.cache
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\obj\Debug\netcoreapp3.1\PracticeArmyNew.AssemblyInfo.cs
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\obj\Debug\netcoreapp3.1\PracticeArmyNew.dll
+C:\Users\Grate\source\repos\PracticeArmyNew\PracticeArmyNew\obj\Debug\netcoreapp3.1\PracticeArmyNew.pdb
