@@ -22,7 +22,7 @@ namespace PracticeArmyNew
                         {
                             string info = String.Format(
                                 "{0}: Здоровье = {1}, Урон = {2}, Броня = {3}, Скорость = {4}",
-                                warriors.Name, warriors.HP, warriors.Attack, warriors.Armor, warriors.Speed
+                                warriors.Name, warriors.Hp, warriors.Attack, warriors.Armor, warriors.Speed
                                 );
                             Console.WriteLine(info);
                         }
@@ -35,7 +35,7 @@ namespace PracticeArmyNew
                         foreach (Warriors warriors in Army)
                         {
                             units_number++;
-                            general_hp +=  warriors.HP;
+                            general_hp +=  warriors.Hp;
                             general_attack += warriors.Attack;
                             general_armor += warriors.Armor;
                         }
@@ -55,13 +55,13 @@ namespace PracticeArmyNew
                             }
                             else
                             {
-                                Console.WriteLine("Юнит '{0}' получил урон! Его здоровье всего лишь {1}.", unit.Name, unit.HP);
+                                Console.WriteLine("Юнит '{0}' получил урон! Его здоровье всего лишь {1}.", unit.Name, unit.Hp);
                             }
                         }
                         else
                         {
                             float hp = unit.DamageHit(user_attack);
-                            Console.WriteLine("Юнит '{0}' уклонился от атаки, хорошо, что мы дали ему новую броню! Его броня {1} и Здоровье {2}", unit.Name, unit.Armor, unit.HP);
+                            Console.WriteLine("Юнит '{0}' броня не пробита! Его броня {1} и Здоровье {2}", unit.Name, unit.Armor, unit.Hp);
                         }
                         if (Army.Count == 0)
                         {
@@ -107,6 +107,5 @@ namespace PracticeArmyNew
                 general_hp, general_attack, general_armor, units_number
                 );
         }
-
     }
 }

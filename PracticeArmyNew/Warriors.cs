@@ -12,37 +12,25 @@ namespace PracticeArmyNew
         private float armor;
         private int speed;
 
-        public Warriors(string UnitName, float UnitHp, float UnitAttack, int UnitArmor, int UnitSpeed)
+        public Warriors(string SoldierName, float SoldierHp, float SoldierAttack, float SoldierArmor, int SoldierSpeed)
         {
-            this.name = UnitName;
-            this.attack = UnitAttack;
-            this.armor = UnitArmor;
-            this.speed = UnitSpeed;
-            this.hp = UnitHp;
+            this.name = SoldierName;
+            this.hp = SoldierHp;
+            this.attack = SoldierAttack;
+            this.armor = SoldierArmor;
+            this.speed = SoldierSpeed;
         }
-        public string Name
+    /*      public string Name
         {
             get { return this.name; }
         }
-        public float HP
-        {
-            get { return this.hp; }
-        }
+    */
+        public string Name => name;
+        public float Hp => hp;
+        public float Attack => attack;
+        public float Armor => armor;
+        public int Speed => speed;
 
-        public float Attack
-        {
-            get { return this.attack; }
-        }
-
-        public float Armor
-        {
-            get { return this.armor; }
-        }
-
-        public int Speed
-        {
-            get { return this.speed; }
-        }
         public bool IfUnitAlive()
         {
             if (this.hp <= 0)
